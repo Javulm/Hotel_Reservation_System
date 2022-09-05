@@ -5,18 +5,18 @@ public class Hotel {
     int rating;
     int weekDayRate;
     int weekendRate;
-    int specialWeekDayRate;
-    int specialWeekendRate;
+    int weekDayRewardRate;
+    int weekendRewardRate;
     int avgRate;
     int specialAvgRate;
 
-    public Hotel(String hotelName, int rating, int weekDayRate, int weekendRate, int specialWeekDayRate, int specialWeekendRate) {
+    public Hotel(String hotelName, int rating, int weekDayRate, int weekendRate, int weekDayRewardRate, int weekendRewardRate) {
         this.hotelName = hotelName;
         this.rating = rating;
         this.weekDayRate = weekDayRate;
         this.weekendRate = weekendRate;
-        this.specialWeekDayRate = specialWeekDayRate;
-        this.specialWeekendRate = specialWeekendRate;
+        this.weekDayRewardRate = weekDayRewardRate;
+        this.weekendRewardRate = weekendRewardRate;
     }
 
     public String getHotelName() {
@@ -51,20 +51,20 @@ public class Hotel {
         this.weekendRate = weekendRate;
     }
 
-    public int getSpecialWeekDayRate() {
-        return specialWeekDayRate;
+    public int getWeekDayRewardRate() {
+        return weekDayRewardRate;
     }
 
-    public void setSpecialWeekDayRate(int specialWeekDayRate) {
-        this.specialWeekDayRate = specialWeekDayRate;
+    public void setWeekDayRewardRate(int weekDayRewardRate) {
+        this.weekDayRewardRate = weekDayRewardRate;
     }
 
-    public int getSpecialWeekendRate() {
-        return specialWeekendRate;
+    public int getWeekendRewardRate() {
+        return weekendRewardRate;
     }
 
-    public void setSpecialWeekendRate(int specialWeekendRate) {
-        this.specialWeekendRate = specialWeekendRate;
+    public void setWeekendRewardRate(int weekendRewardRate) {
+        this.weekendRewardRate = weekendRewardRate;
     }
 
     public int getAvgRate() {
