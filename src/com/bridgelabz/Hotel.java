@@ -7,8 +7,6 @@ public class Hotel {
     int weekendRate;
     int weekDayRewardRate;
     int weekendRewardRate;
-    int avgRate;
-    int specialAvgRate;
 
     public Hotel(String hotelName, int rating, int weekDayRate, int weekendRate, int weekDayRewardRate, int weekendRewardRate) {
         this.hotelName = hotelName;
@@ -65,21 +63,5 @@ public class Hotel {
 
     public void setWeekendRewardRate(int weekendRewardRate) {
         this.weekendRewardRate = weekendRewardRate;
-    }
-
-    public int getAvgRate() {
-        return avgRate;
-    }
-
-    public void setAvgRate(int avgRate) {
-        this.avgRate = avgRate;
-    }
-
-    public int getSpecialAvgRate() {
-        return specialAvgRate;
-    }
-
-    public void setSpecialAvgRate(int specialAvgRate) {
-        this.specialAvgRate = specialAvgRate;
     }
 }
